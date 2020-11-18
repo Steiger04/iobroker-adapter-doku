@@ -1,0 +1,22 @@
+{
+  "name": "iobroker-adapter-doku",
+  "version": "0.0.1",
+  "description": "Documentation of an ioBroker adapter",
+  "main": "index.js",
+  "authors": {
+    "name": "carsten04",
+    "email": "steiger04@posteo.de"
+  },
+  "repository": "/iobroker-adapter-doku",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "moment": "^2.27.0"
+  }
+}
